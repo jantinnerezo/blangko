@@ -1,3 +1,3 @@
 # Blank CMS
 
-## For Headless Wordpress CMS with ACF (Advanced Custom Fields)
+## For Headless Wordpress CMS paired with ACF (Advanced Custom Fields)
