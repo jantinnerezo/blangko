@@ -1,5 +1,7 @@
 <?php
 
+use Cocur\Slugify\Slugify;
+
 if (!function_exists('blangko_post_types')) {
     /**
      * Define your app's custom post types
