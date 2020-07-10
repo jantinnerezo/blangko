@@ -1,6 +1,6 @@
 {
   "name": "jantinnerezo/blangko",
-  "type": "wordpress-theme",
+  "type": "package",
   "description": "For Headless Wordpress CMS paired with ACF (Advanced Custom Fields)",
   "keywords": [
     "WordPress",
