@@ -12,3 +12,5 @@
  *
  * @package blangko
  */
+
+get_header();
