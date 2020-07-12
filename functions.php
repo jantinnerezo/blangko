@@ -40,7 +40,7 @@ function blangko_remove_admin_menu()
 // Hooking up our function to theme setup
 add_action('login_head', 'change_login_logo');
 add_action('init', 'setup_blangko_post_types');
-add_action('init', 'blangko_add_site_owner_rol');
+add_action('init', 'blangko_add_site_owner_role');
 add_action('admin_menu', 'blangko_remove_admin_menu');
 
 /**
