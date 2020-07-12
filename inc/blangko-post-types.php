@@ -1,7 +1,5 @@
 <?php
 
-use Cocur\Slugify\Slugify;
-
 if (!function_exists('blangko_post_types')) {
     /**
      * Define your app's custom post types
@@ -26,7 +24,6 @@ if (!function_exists('blangko_post_types')) {
 if (!function_exists('register_blangko_post_types')) {
     function register_blangko_post_types(): array
     {
-        $slugify = new Slugify();
         $theme = wp_get_theme()->get('Template') . '-child';
 
         $registered_post_types = [];
@@ -54,7 +51,7 @@ if (!function_exists('register_blangko_post_types')) {
                     'menu_icon' => "dashicons-{$post_type['icon']}",
                     'public' => $post_type['public'] ?? false,
                     'has_archive' => true,
-                    'rewrite' => array('slug' => $slugify->slugify($post_type['name'])),
+                    'rewrite' => array('slug' => sanitize_title($post_type['name'])),
                     'show_in_rest' => $post_type['show_in_rest'] ?? false,
                     'show_ui' => true,
                     'show_in_graphql' => $post_type['show_in_graphql'] ?? false,
