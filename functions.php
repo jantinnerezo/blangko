@@ -17,6 +17,7 @@ if (!defined('_S_VERSION')) {
 require get_template_directory() . '/inc/blangko-post-types.php';
 require get_template_directory() . '/inc/blangko-custom-role.php';
 require get_template_directory() . '/inc/blangko-custom-login-logo.php';
+require get_template_directory() . '/inc/blangko-tinymce-tailwind.php';
 
 function setup_blangko_post_types()
 {
