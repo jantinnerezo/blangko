@@ -1,0 +1,19 @@
+{
+  "name": "jancuanerezo/blangko",
+  "description": "For Headless Wordpress CMS paired with ACF (Advanced Custom Fields)",
+  "authors": [
+    {
+      "name": "Jantinn Erezo",
+      "email": "erezojantinn@gmail.com",
+      "homepage": "https://github.com/jantinnerezo"
+    }
+  ],
+  "type": "wordpress-theme",
+  "require": {
+    "php": ">=7.1",
+    "wpackagist-plugin/advanced-custom-fields": "^5.8",
+    "wpackagist-plugin/disable-gutenberg": "^2.1",
+    "wpackagist-plugin/acf-to-rest-api": "^3.3"
+  },
+  "license": "MIT"
+}

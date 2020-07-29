@@ -70,8 +70,8 @@ if (!function_exists('blangko_acf_slug_fields')) {
     {
         return [
             [
-                'post_type' => 'blogs',
-                'sluggable_field' => 'title'
+                'post_type' => 'services',
+                'sluggable_field' => 'service_name'
             ]
         ];
     }
