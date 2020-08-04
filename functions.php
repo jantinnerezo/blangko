@@ -13,7 +13,6 @@ if (!defined('_S_VERSION')) {
 	define('_S_VERSION', '1.0.0');
 }
 
-
 require get_template_directory() . '/inc/blangko-post-types.php';
 require get_template_directory() . '/inc/blangko-custom-role.php';
 require get_template_directory() . '/inc/blangko-custom-login-logo.php';
@@ -36,7 +35,6 @@ function blangko_remove_admin_menu()
 	remove_menu_page('edit.php?post_type=page');
 	remove_menu_page('edit-comments.php');
 }
-
 
 // Hooking up our function to theme setup
 add_action('login_head', 'change_login_logo');
